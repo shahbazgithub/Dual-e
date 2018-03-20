@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<TITLE>WELCOME TO UPLOAD SECTION</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button-green
+{
+    font-family: "Segoe UI","Segoe","Verdana";
+    background: #0f9e0a center top no-repeat;
+    background-image: linear-gradient(rgb(15, 158, 10), rgb(24, 105, 21));
+    color: white;
+    border-radius: 5px;
+    width: 82px;
+    padding: 8px 10px 8px 10px;
+}
+.button-green:hover
+{
+    background: #0a8406 center top no-repeat;
+    background-image: linear-gradient(rgb(12, 141, 8), rgb(19, 88, 17));
+}
+.file-upload
+{
+    opacity: 0;
+    width: 50px;
+    height: 35px;
+    top: 0px;
+    left: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    font-family: "Segoe UI","Segoe","Verdana";
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#navbar {
+  font-family: "Segoe UI","Segoe","Verdana";
+  overflow: hidden;
+  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#navbar a {
+  font-family: "Segoe UI","Segoe","Verdana";
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 87px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+    font-family: "Segoe UI","Segoe","Verdana";
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+    font-family: "Segoe UI","Segoe","Verdana";
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+
+}
+label {
+    font-family: "Segoe UI","Segoe","Verdana";
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    font-family: "Segoe UI","Segoe","Verdana";
+    background: #0f9e0a;
+    background-image: linear-gradient(rgb(15, 158, 10), rgb(24, 105, 21));
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width:75%;
+}
+input[type=submit]:hover {
+  background: #0a8406 center top no-repeat;
+  background-image: linear-gradient(rgb(12, 141, 8), rgb(19, 88, 17));
+    font-family: "Segoe UI","Segoe","Verdana";
+}
+.container {
+    border-radius: 5px;
+
+    padding: 20px;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: center;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.container {
+    font-family: "Segoe UI","Segoe","Verdana";
+    width: 100%;
+    border: 1px solid gray;
+}
+.heading
+{
+    font-family: "Segoe UI","Segoe","Verdana";
+  text-align: center;
+  aboutus:0;
+  margin: relative;
+  font-size: 50px;
+  padding:10px;
+  padding-bottom: 30px;
+  height:80px;
+  color:#E7C710;
+  font-weight: bold;
+}
+</style>
+</head>
+<div class="heading" id="myHeader">
+  <img src="ee.png" align="left" height="50px" width="50px"></img>
+  Welcome to upload section
+</div>
+<div id="navbar">
+  <a href="Home.html">Home</a>
+  <a class="active" >Publishing</a>
+  <a href="asdd.html">Read Book</a>
+  <a href="student.html">Student</a>
+  <a href="chatbot.html">Learning bot</a>
+</div>
+<style>
+img {
+    max-width: 100%;
+    height: auto;
+}
+ul {
+    font-family: "Segoe UI","Segoe","Verdana";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    font-family: "Segoe UI","Segoe","Verdana";
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #E7C710;
+}
+</style>
+<body background="pexels-photo-590493.jpeg" height="200%" width="500%" style="background-size:cover;">
+  <div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Book name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="Book name" placeholder="Book name" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Author name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="Author name" placeholder="Author name" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="category">Category</label>
+      </div>
+      <div class="col-75">
+        <select id="category" name="category" required>
+          <option selected>select category</option>
+          <option value="Romance">Romance</option>
+          <option value="comics">Comics</option>
+          <option value="Horror">Horror</option>
+          <option value="Action/adventure">Action/adventure</option>
+          <option value="sci-fi">sci-fi</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Description">Description</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Description" name="Description" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div></form
+    <form method="post" action="mailto:ashish2211761@live.com">
+    <div class="button-green"><input class="file-upload" type="file">Upload File</div></br></br>
+    <div class="row">
+      <input type="submit" value="submit" formtarget="_self" onclick="myref()" required>
+    </div>
+  </form>
+</div>
+ </div>
+ <div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:30px 40px;text-align: justify;">
+     <p align="center"><font size=4 face="Segoe UI","Segoe","Verdana"> We Want to create a platform so, each and every person get some Litrature."Share your knowledge, Increase your knowledge !!"</font></p>
+      <p align="center"><font size=2 face="Segoe UI","Segoe","Verdana"> “From turning a mere idea into an innovation, this e-publishing firm has certainly broken quite a few industry standards along the way.”</font></p>
+    <p align="center"><font size=2 face="Segoe UI","Segoe","Verdana">
+      Contact 1800-454-698 for any Query !!(27x7).For further details mail us <a href="https://mail.google.com/mail/u/0/#inboxde@gmail.com" style="background-color:#282E34; color:inherit; text-decoration:none;">de@gmail.com </a> </font></p>
+      <marquee LOOP=3 BEHAVIOR=ALTERNATE><footer align="center"><font font-size=2 face="Segoe UI","Segoe","Verdana">&copy; Copyright dual-e.edu.co.in</footer></marquee></font>
+    </div>
+  </div>
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<script>
+function myref() {
+    location.reload();
+    window.alert("Your response has been submitted");
+}
+</script>
+
+</body>
+</html>

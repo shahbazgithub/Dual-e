@@ -1,0 +1,46 @@
+body {
+	color: black; font-weight: bold; font-size: 20px; background: #EDC933;
+    background-image: url("sandy_upmatched.jpg"); 00background-repeat: repeat-y border-radius: 8px;
+    border-radius: 50%;
+}
+.typewrite{
+    color: #111110; font-weight: bold; font-size: 30px; padding-left:150px;
+    font-family: "Segoe UI","Segoe","Verdana";
+}
+
+span {
+    color: #080808;
+
+
+}
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    color: black
+
+}
+
+#main {
+	position: relative; top: 40%; right: 60px; width: 500px; left: 730px; height: 550px;
+    border: 2px solid #421; border-radius: 20px;
+    line-height: 1 ; margin:15px;
+    box-shadow: 10px 20px #080808;
+    font-family: "Segoe UI","Segoe","Verdana";
+
+}
+#main div {
+	margin: 10px;
+}
+#input {
+    border: 1px; background: #EDC933; padding: 5px; border: 1px solid #421; border-radius: 10px;
+    box-shadow: 5px 5px rgb(10, 10, 0);
+    font-family: "Segoe UI","Segoe","Verdana";
+    width: 450px;height:40px;
+    position: absolute;
+    bottom: 18px;
+    left: 16px;
+}
